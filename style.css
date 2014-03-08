@@ -133,7 +133,7 @@ button, input, select, textarea {vertical-align: top; margin: 0;}
 .alpha{margin-left:0 !important;}
 .omega{margin-right:0 !important;}
 
-hr {linear-gradient(to bottom, transparent 0%, rgba(0, 0.16, 0, 0) 100%) repeat scroll 0% 0% transparent;}
+
 
 /*-----------------------------------*/
 /* Clear Floats */
@@ -910,7 +910,7 @@ h6.foo2 {
 /* Rating Stars */
 /*-----------------------------------*/
 
-.rating {margin-bottom: 30px;}
+.rating {margin-bottom: 5px;}
 .rating span.star {display:block; float:left; width:19px; height:19px; padding-right: 2px; background-repeat: no-repeat;}
 .rating span.off {background-image: url(images/icons/star-off.png);}
 .rating span.on,
@@ -1243,6 +1243,7 @@ h6.foo2 {
 .widget-container{margin-bottom: 30px;}
 .widget-container .widget-title{font-size: 21px; margin-bottom: 12px;}
 
+
 /* Widget Tags */
 
 .tagcloud a {
@@ -1285,6 +1286,13 @@ h6.foo2 {
         background-size: 300px auto;
     }
 }
+
+/*-----------------------------------*/
+/* Filter */
+/*-----------------------------------*/
+
+.filter {padding: 0 20px 0 0;}
+
 
 /*-----------------------------------*/
 /* Widget Calendar */
@@ -1718,7 +1726,7 @@ textarea:focus {
 /* Search Form */
 /*-----------------------------------*/
 
-.widget-search .inner{padding: 16px 14px;}
+.widget-search .inner{padding: 5px 14px;}
 .widget-search .btn{float:right; margin-top: -1px;}
 .widget-search .field_text{margin: 0 96px 0 0; width: auto !important; float: none;}
 .widget-search .field_text input{padding-left: 26px;}
@@ -2591,7 +2599,7 @@ textarea:focus {
 /*-----------------------------------*/
 
 .widget-profile {margin-bottom: 30px;}
-.widget-profile .inner {padding: 2px;}
+.widget-profile .inner {padding: 15px;}
 
 .widget-profile .avatar {
     width: 98px;
@@ -2609,7 +2617,7 @@ textarea:focus {
 	font-size: 18px;
     color: #323232;
     text-shadow: none;
-    margin: 10px 0 1px;
+    margin: 10px 0 5px;
 }
 .widget-profile .subtitle {
 	display: block;
