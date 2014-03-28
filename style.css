@@ -2900,3 +2900,20 @@ textarea:focus {
 .lightIcon {
 	color: #d8d6d4;
 }
+
+/*----------------------------------------*/
+/* Fix for equal height columns, based on */
+/* http://stackoverflow.com/a/19695851    */
+/*----------------------------------------*/
+.row-equal {
+    /* Display grid rows as table rows with spacing between cells */
+    display: table;
+    border-spacing: 10px;
+}
+
+.col-equal {
+    /* Display columns in grid rows as table cells */
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
